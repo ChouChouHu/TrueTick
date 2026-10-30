@@ -49,7 +49,7 @@
   }
 
   /* ── Hero ── */
-  header { padding: 56px 0 32px; }
+  header.wrap { padding-top: 56px; padding-bottom: 32px; }
   .hero { display: grid; grid-template-columns: 1fr auto; gap: 40px; align-items: center; }
   .clock {
     font-family: var(--pixel);
@@ -64,9 +64,10 @@
   h1 { font-size: clamp(30px, 5vw, 42px); line-height: 1.25; margin: 0 0 12px; letter-spacing: 1px; }
   .lead { font-size: 18px; color: var(--ink-soft); margin: 0 0 28px; max-width: 30em; }
   .preview {
-    width: 240px;
+    width: 311px;
+    max-width: 100%;
+    height: auto;
     image-rendering: pixelated;
-    filter: drop-shadow(0 0 0 transparent);
   }
 
   /* ── 主下載按鈕 ── */
@@ -149,14 +150,14 @@
   details p, details ul { margin: 10px 0 0; color: var(--ink-soft); }
   details ul { padding-left: 1.2em; }
 
-  footer { padding: 24px 0 48px; color: var(--ink-soft); font-size: 14px; text-align: center; }
+  footer.wrap { padding-top: 24px; padding-bottom: 48px; color: var(--ink-soft); font-size: 14px; text-align: center; }
   footer .pix { font: 10px var(--pixel); letter-spacing: 1px; }
 
   @media (max-width: 760px) {
-    header { padding-top: 36px; }
+    header.wrap { padding-top: 36px; }
     .hero { grid-template-columns: 1fr; }
     .hero figure { order: -1; justify-self: center; }
-    .preview { width: 180px; }
+    .preview { width: 220px; }
     .features, .downloads { grid-template-columns: 1fr; }
     .panel { padding: 20px 18px; }
     ol.steps > li { padding-left: 42px; }
@@ -180,7 +181,7 @@
       </div>
     </div>
     <figure style="margin:0">
-      <img class="preview" src="assets/timer-preview.png" width="320" height="590" alt="TrueTick 計時器介面：上方是今日總時數，下方列出各軟體的使用時間">
+      <img class="preview" src="assets/timer-preview.png" width="311" height="537" alt="TrueTick 計時器介面：列出各軟體的使用時間">
     </figure>
   </div>
 </header>
