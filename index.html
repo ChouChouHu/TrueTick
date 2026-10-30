@@ -208,19 +208,19 @@
         <span class="badge">FOR YOU</span>
         <h3>Windows</h3>
         <p>Windows 10／11</p>
-        <a class="btn" href="https://github.com/ChouChouHu/truetick-download/releases/latest/download/TrueTick-Windows.zip">下載 Windows 版</a>
+        <a class="btn" href="https://github.com/ChouChouHu/TrueTick/releases/latest/download/TrueTick-Windows.zip">下載 Windows 版</a>
       </div>
       <div class="box dl" data-os="mac-arm">
         <span class="badge">FOR YOU</span>
         <h3>Mac・M 系列晶片</h3>
         <p>M1、M2、M3、M4⋯⋯ 2020 年底之後的 Mac 大多是這種</p>
-        <a class="btn" href="https://github.com/ChouChouHu/truetick-download/releases/latest/download/TrueTick-macOS-Apple-Silicon.zip">下載 M 晶片版</a>
+        <a class="btn" href="https://github.com/ChouChouHu/TrueTick/releases/latest/download/TrueTick-macOS-Apple-Silicon.zip">下載 M 晶片版</a>
       </div>
       <div class="box dl" data-os="mac-intel">
         <span class="badge">FOR YOU</span>
         <h3>Mac・Intel 晶片</h3>
         <p>比較舊的 Mac</p>
-        <a class="btn" href="https://github.com/ChouChouHu/truetick-download/releases/latest/download/TrueTick-macOS-Intel.zip">下載 Intel 版</a>
+        <a class="btn" href="https://github.com/ChouChouHu/TrueTick/releases/latest/download/TrueTick-macOS-Intel.zip">下載 Intel 版</a>
       </div>
     </div>
     <p class="hint">不知道自己的 Mac 是哪一種？點左上角蘋果 →「關於這台 Mac」：「晶片」寫 <b>Apple M</b> 開頭就是 M 系列，「處理器」寫 <b>Intel</b> 就是 Intel。</p>
@@ -287,7 +287,7 @@
 
 <footer class="wrap">
   <p class="pix">© 2026 NIANCHOU</p>
-  <p><a href="https://github.com/ChouChouHu/truetick-download/releases">所有版本</a></p>
+  <p><a href="https://github.com/ChouChouHu/TrueTick/releases">所有版本</a></p>
 </footer>
 
 <script>
@@ -317,7 +317,7 @@
   })();
 
   // 顯示最新版本號（拿不到就保持「最新版」）
-  fetch('https://api.github.com/repos/ChouChouHu/truetick-download/releases/latest')
+  fetch('https://api.github.com/repos/ChouChouHu/TrueTick/releases/latest')
     .then(function (r) { return r.ok ? r.json() : null; })
     .then(function (d) { if (d && d.tag_name) document.getElementById('version').textContent = d.tag_name; })
     .catch(function () {});

@@ -8,9 +8,9 @@
 
 | 你的電腦 | 下載這個 |
 |---|---|
-| Windows 10／11 | [TrueTick-Windows.zip](https://github.com/ChouChouHu/truetick-download/releases/latest/download/TrueTick-Windows.zip) |
-| Mac（M1／M2／M3／M4 等 M 系列晶片） | [TrueTick-macOS-Apple-Silicon.zip](https://github.com/ChouChouHu/truetick-download/releases/latest/download/TrueTick-macOS-Apple-Silicon.zip) |
-| Mac（Intel 晶片） | [TrueTick-macOS-Intel.zip](https://github.com/ChouChouHu/truetick-download/releases/latest/download/TrueTick-macOS-Intel.zip) |
+| Windows 10／11 | [TrueTick-Windows.zip](https://github.com/ChouChouHu/TrueTick/releases/latest/download/TrueTick-Windows.zip) |
+| Mac（M1／M2／M3／M4 等 M 系列晶片） | [TrueTick-macOS-Apple-Silicon.zip](https://github.com/ChouChouHu/TrueTick/releases/latest/download/TrueTick-macOS-Apple-Silicon.zip) |
+| Mac（Intel 晶片） | [TrueTick-macOS-Intel.zip](https://github.com/ChouChouHu/TrueTick/releases/latest/download/TrueTick-macOS-Intel.zip) |
 
 > **不知道自己的 Mac 是哪一種？** 點左上角蘋果 →「關於這台 Mac」：「晶片」寫 **Apple M** 開頭就是 M 系列；「處理器」寫 **Intel** 就是 Intel。
 
